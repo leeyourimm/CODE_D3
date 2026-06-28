@@ -1,0 +1,8 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_0130.
+*
+  MODULE clear_ok_code.
+
+PROCESS AFTER INPUT.
+  MODULE exit AT EXIT-COMMAND.
+  MODULE user_command_0130.

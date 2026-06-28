@@ -1,0 +1,12 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_0160.
+
+  MODULE set_alv_0160.
+
+
+
+  MODULE clear_ok_code.
+*
+PROCESS AFTER INPUT.
+  MODULE exit AT EXIT-COMMAND.
+  MODULE user_command_0160.
